@@ -1,0 +1,37 @@
+$headerHeight: 60px;
+.app {
+  overflow: hidden;
+  .header {
+    height: $headerHeight;
+  }
+
+  .content {
+    display: flex;
+    height: calc(100vh - #{$headerHeight});
+    background: #ccc;
+    .list {
+      flex: 0 0 250px;
+      background: #3a8ee6;
+    }
+
+    .editor-outer {
+      flex: 1 1;
+      overflow: auto;
+      margin: 20px;
+
+      .editor {
+        height: 100%;
+        width: 1200px;
+        background: #fff;
+      }
+    }
+
+    .property {
+      flex: 0 0 250px;
+      .property__content{
+        height: 100%;
+        background: yellow;
+      }
+    }
+  }
+}

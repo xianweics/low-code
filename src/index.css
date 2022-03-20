@@ -1,0 +1,9 @@
+@import '~antd/dist/antd.css';
+
+ul {
+    padding: 0;
+}
+
+ol, ul, dl {
+    margin: 0;
+}

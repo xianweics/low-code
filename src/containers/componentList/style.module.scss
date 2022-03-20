@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 16px 10px;
+  .item{
+    cursor: grab;
+    &:active {
+      cursor: grabbing;
+    }
+  }
+}
